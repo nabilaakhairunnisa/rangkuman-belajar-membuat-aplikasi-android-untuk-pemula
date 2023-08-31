@@ -11,3 +11,11 @@
 - onRestart: kembali ke activity sebelumnya
 - onDestroyed: juga dipanggil ketika terjadi perubahan konfigurasi seperti orientasi layar, keyboard availability, dan perubahan bahasa
 - onSaveInstanceState: dipanggil ketika berpindah ke activity lain untuk menyimpan informasi
+
+### **Latihan Activity**
+- *android:layout_width="match_parent"* : mengesuaikan konten di dalamnya
+- *android:layout_height="wrap_content"* : menyesuaikan layar device
+- *android:padding="16dp"* : padding. jarak dari isi konten ke latar belakangnya
+- *android:margin="16dp"* : margin. jarak dari komponen ke komponen lain di luarnya
+- sp : scale independent pixel. ukuran text
+- dp : destiny indeoendent pixel. semua ukuran komponen selain text
