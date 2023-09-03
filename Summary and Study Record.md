@@ -53,7 +53,8 @@
    - [TableLayout](https://developer.android.com/guide/topics/ui/layout/grid.html): disusun secara baris dan kolom
    - [ScrollView](https://developer.android.com/reference/android/widget/ScrollView.html): komponen dapat digeser
 - Mengganti icon apps: res -> new -> image asset
-
+- Latihan Membuat LinearLayout, RelativeLayout, FrameLayout, dan TableLayout
+- Inspector: Komponen untuk menganalisis tampilan. Caranya adalah Tools -> Layout Inspector
 
 
 
