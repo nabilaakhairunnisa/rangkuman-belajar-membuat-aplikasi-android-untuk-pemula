@@ -51,7 +51,8 @@
         - packed: elemen akan menyatu dan dikemas bersama.
    - [FrameLayout](https://developer.android.com/reference/android/widget/FrameLayout.html): komponen saling menumpuk
    - [TableLayout](https://developer.android.com/guide/topics/ui/layout/grid.html): disusun secara baris dan kolom
-   - 
+   - [ScrollView](https://developer.android.com/reference/android/widget/ScrollView.html): komponen dapat digeser
+- Mengganti icon apps: res -> new -> image asset
 
 
 
