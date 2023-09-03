@@ -19,3 +19,13 @@
 - *android:margin="16dp"* : margin. jarak dari komponen ke komponen lain di luarnya
 - sp : scale independent pixel. ukuran text
 - dp : destiny indeoendent pixel. semua ukuran komponen selain text
+
+### **Intent**
+- Definition: A mechanism to do an action and comunication between apps component (activity, service, broadcast receiver)
+- Penggunaan Umum Intent: Memindahkan activity to another activity, run service background, send broadcast object to apps
+- Bentuk Intent: Explicit (move to another activity), Implicit (run another application fitur)
+
+## 3 September 2023 (51% - )
+### **View and ViewGroup Theory**
+
+- View: Kumpulan komponen apk (button, text, image, etc)
