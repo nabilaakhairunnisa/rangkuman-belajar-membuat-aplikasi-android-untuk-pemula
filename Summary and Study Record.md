@@ -84,6 +84,21 @@
 15. Mengimplementasi menu_main.xml pada fungsi onCreateOptionsMenu dengan objek menuInflater dan method inflate untuk mengkonversi xml
 16. Membuat fungsi berisi pencabangan ketika menu List dan Grid diklik
 
+### **Latihan Implementasi Library Glide**
+1. Tambahkan dependencies implementation("com.github.bumptech.glide:glide:4.15.0") pada build.gradle lalu klik sync
+2. Ubah data_photo pada strings.xml menjadi  <item>https://upload.wikimedia.org/wikipedia/commons/8/87/Ahmad_Dahlan.jpg</item> artinya mengambil gambar dari internet untuk ditampilkan pada ImageView
+3. Ubah tipe data pada data class Hero properti photo dari Int menjadi String
+4. Ubah method getListHeroes pada MainActivity, dataPhoto menjadi getStringArray
+5. Ubah kode holder.imgPhoto pada method onBindViewHolder menjadi Glide.with holder untuk menampilkan foto dari URL pada ImageView yang sesuai
+6. Aktifkan permission <uses-permission android:name="android.permission.INTERNET" /> pada Manifest -> AndroidManifest.xml untuk mengambil data dari internet  
+
+### **View Binding**
+- Merupakan fitur untuk binding (menghubungkan elemen ke dalam aplikasi) sebuah properti ke elemen view
+
+### **Exam**
+- Manakah yang bukan opsi untuk menambahkan aksi onClick pada RecyclerView? 
+Langsung memanggil fungsi setOnItemClickListener dari RecyclerView.
+
 
 
 
