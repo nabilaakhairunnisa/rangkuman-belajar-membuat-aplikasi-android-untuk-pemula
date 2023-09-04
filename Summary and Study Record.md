@@ -1,5 +1,4 @@
 ## 29 August 2023
-
 ### **Teory Activity**
 - Pengertian: salah satu komponen android
 - Fungsi: menampilkan user interface
@@ -15,7 +14,6 @@
 - onSaveInstanceState: dipanggil ketika berpindah ke activity lain untuk menyimpan informasi
 
 ## 31 August 2023
-
 ### **Latihan Activity**
 - *android:layout_width="match_parent"* : mengesuaikan konten di dalamnya
 - *android:layout_height="wrap_content"* : menyesuaikan layar device
@@ -25,16 +23,13 @@
 - dp : destiny indeoendent pixel. semua ukuran komponen selain text
 
 ## 1 September 2023
-
 ### **Intent**
 - Definition: A mechanism to do an action and comunication between apps component (activity, service, broadcast receiver)
 - Penggunaan Umum Intent: Memindahkan activity to another activity, run service background, send broadcast object to apps
 - Bentuk Intent: Explicit (move to another activity), Implicit (run another application fitur)
 
-## 3 September 2023 (51% - )
-
-### **View and ViewGroup Theory**
-
+## 3 September 2023 (51% - 71%)
+### **View and ViewGroup**
 - View: Kumpulan komponen apk: button, text, image, checkbox, radio button, grid view, recyclear view (tampilan list)
 - [ViewGroup](https://developer.android.com/develop/ui/views/layout/declaring-layout): Kumpulan view. Beberapa penempatan komponen View pada ViewGroup adalah sebagai berikut:
   - [LinearLayout](https://developer.android.com/develop/ui/views/layout/linear): komponen disusun secara vertical dan horizontal. Memiliki atribut weight.
@@ -56,7 +51,10 @@
 - Latihan Membuat LinearLayout, RelativeLayout, FrameLayout, dan TableLayout
 - Inspector: Komponen untuk menganalisis tampilan. Caranya adalah Tools -> Layout Inspector
 
-
+## 4 September 2023 (71% - )
+### **Style and Theme**
+- Style: kumpulan properti (bold, warna, margin, dll) yang diimplementasi ke dalam komponen
+- Theme: Style yang diterapkan untuk activity
 
 
 
