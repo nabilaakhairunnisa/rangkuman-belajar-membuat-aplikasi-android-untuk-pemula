@@ -56,6 +56,40 @@
 - Style: kumpulan properti (bold, warna, margin, dll) yang diimplementasi ke dalam komponen
 - Theme: Style yang diterapkan untuk activity
 
+### **Recyclear View**
+- Merupakan kelas yang dari android yang di dalamnya terdapat beberapa jenis LayoutManager, yaitu LinearLayoutManager, GridLayoutManager, StaggeredGridLayoutManager (tampilan yang menyesuaikan tinggi setiap item).
+- Adapter merupakan kelas untuk menghubungkan data resource dengan kode. Terdapat beberapa method di dalamnya:
+  - onCreateViewHolder(): digunakan untuk membuat ViewHolder baru yang terhubung dengan layout item.
+  - onBindViewHolder(): digunakan untuk menetapkan data source ke dalam ViewHolder sesuai dengan posisinya.
+  - getItemCount(): digunakan untuk menetapkan ukuran dari jumlah data yang ingin ditampilkan.
+
+### **Latihan Membuat Recyclear View**
+1. Menambahkan <androidx.recyclerview.widget.RecyclerView ke dalam activity_main
+2. Membuat item_row_hero dengan (<androidx.cardview.widget.CardView) pada layout resource file untuk membuat tampilan card berisi foto, nama, dan deskripsi.
+3. Menambahkan resource string
+4. Membuat data class bernama hero berisi variabel name dan description yang bertipe String dan photo bertipe Int yang di-parcelize
+5. Membuat kelas ListHeroAdapter yang berisi method
+   - onCreateViewHolder untuk mengambil layout xml dan mengubahnya menjadi kode
+   - onBindViewHolder mengisi atau memperbarui data dalam daftar
+   - getItemCount untuk menentukan berapa banyak elemen yang akan ditampilan dalam daftar
+6. Membuah kelas ListViewHolder untuk mengakses elemen tampilan dalam method onBindViewHolder sehingga dapat menampilkan data yang sesuai
+7. Membuat variabel private lateinit var rvHeroes yang diinisialisasikan pada fun onCreate
+8. Memanggil method getListHeroes dan showRecyclerList pada onCreate
+9. Membuat method getListHeroes dan mengambil data dari data class Hero dengan resource strings.xml
+10. Membuat method showRecyclerList untuk mengadaptasi (adapter) RecyclearView
+11. Menambahkan holder.itemView.setOnClickListener pada method onBindViewHolder yang berada pada kelas ListHeroAdapter untuk menentukan tindakan ketika salah satu item diklik
+12. Membuat interface OnItemClickCallback pada method onBindViewHolder yang berisi fungsi onItemClicked
+13. membuat method showSelectedHero yang berisi kode untuk menampilkan Toast yang memiliki 3 buah parameter yaitu context, text, dan juga durasi toast.
+14. Membuat Android Resource Directory baru bernama menu berisi menu_main.xml yang di dalamnya terdapat dua buah item yang bernama Grid dan juga List
+15. Mengimplementasi menu_main.xml pada fungsi onCreateOptionsMenu dengan objek menuInflater dan method inflate untuk mengkonversi xml
+16. Membuat fungsi berisi pencabangan ketika menu List dan Grid diklik
+
+
+
+
+
+
+
 
 
 
