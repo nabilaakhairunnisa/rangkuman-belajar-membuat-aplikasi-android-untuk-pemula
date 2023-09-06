@@ -51,7 +51,7 @@
 - Latihan Membuat LinearLayout, RelativeLayout, FrameLayout, dan TableLayout
 - Inspector: Komponen untuk menganalisis tampilan. Caranya adalah Tools -> Layout Inspector
 
-## 4 September 2023 (71% - )
+## 4 September 2023 (71% - 97%)
 ### **Style and Theme**
 - Style: kumpulan properti (bold, warna, margin, dll) yang diimplementasi ke dalam komponen
 - Theme: Style yang diterapkan untuk activity
@@ -99,10 +99,11 @@
 - Manakah yang bukan opsi untuk menambahkan aksi onClick pada RecyclerView? 
 Langsung memanggil fungsi setOnItemClickListener dari RecyclerView.
 
+## 5 September 2023 (97% - 100%)
 
+### **Final Exam**
 
-
-
+Membuat aplikasi Kdrama Sinopsis dengan 3 activity, dan parcelable untuk mengirim data secara keseluruhan
 
 
 
