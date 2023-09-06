@@ -95,10 +95,6 @@
 ### **View Binding**
 - Merupakan fitur untuk binding (menghubungkan elemen ke dalam aplikasi) sebuah properti ke elemen view
 
-### **Exam**
-- Manakah yang bukan opsi untuk menambahkan aksi onClick pada RecyclerView? 
-Langsung memanggil fungsi setOnItemClickListener dari RecyclerView.
-
 ## 5 September 2023 (97% - 100%)
 
 ### **Final Exam**
